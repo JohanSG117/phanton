@@ -1,0 +1,73 @@
+/*Gobal*/
+
+:root {
+  --theme-font-color: #585858;
+  --theme-card-font-color: rgb(255, 255, 255);
+}
+
+html {
+  color: var(--theme-font-color);
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+body {
+  line-height: inherit;
+  background: #fafbfd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0 0 2em 0;
+}
+
+/*  */
+
+.homepage {
+  width: 100%;
+  max-width: 68em;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.nav__menu_anchor {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.c-container_h1 {
+  letter-spacing: -0.035em;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 1em 0;
+  font-size: 2.75em;
+}
+
+.c-card__list {
+  display: grid;
+  gap: 2.45rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.c-card__image {
+  width: 100%;
+}
+.c-card__image,
+.c-card__description {
+  grid-column: 1 / 1;
+  grid-row: 1;
+}
+.c-card__title {
+  color: var(--theme-card-font-color);
+}
+.c-card__text {
+  color: var(--theme-card-font-color);
+}
+.c-card__link {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
