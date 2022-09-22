@@ -28,6 +28,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   margin: 0 0 2em 0;
 }
+h1 {  
+  letter-spacing: -2px;
+}
 
 textarea {
   padding: 0;
@@ -73,7 +76,10 @@ textarea {
 
 /*  */
 
-.homepage {}
+.homepage {
+  padding-top: 170px;
+  padding-bottom: 130px;
+}
 
 .nav__menu {
   display: none;
@@ -85,12 +91,11 @@ textarea {
   flex-direction: column;
 }
 
-.header {
-}
+.header {}
 
 .l-logo { 
   display: flex;
-  padding-top: 170px;
+  padding-top: 0;
   padding-bottom: 30px;
   align-items: center;
   gap: 15px;
@@ -106,13 +111,15 @@ textarea {
   display: flex;
   text-align: center;
   margin: 0;
+  letter-spacing: 7px;
 }
 
 .c-container {
   width: 100%;
   max-width: 68em;
   margin: auto;
-  padding: 0;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .c-container_title {
@@ -163,6 +170,8 @@ textarea {
 
 .footer {
   background-color: #f6f6f6;
+  padding-top: 100px;
+  padding-bottom: 128px;
 }
 
 .footer__contact-logo {
