@@ -180,5 +180,13 @@ textarea {
 
 .footer__credicts {
   display: flex;
-  justify-content: center;
+}
+
+.credicts { 
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.credict__medio {
+  border: solid 10  px rgb(rgb(0, 0, 0));
 }
