@@ -19,7 +19,7 @@ body {
 
 body {
   line-height: inherit;
-  background: #fafbfd;
+  background: #FFF;
   font-family: var(--theme-font-family);
 }
 
@@ -73,8 +73,7 @@ textarea {
 
 /*  */
 
-.homepage {
-}
+.homepage {}
 
 .nav__menu {
   display: none;
@@ -141,8 +140,7 @@ textarea {
   grid-column: 1 / 1;
   grid-row: 1;
 }
-.c-card__description {
-}
+/* .c-card__description { } */
 
 .c-card__title {
   color: var(--theme-card-font-color);
@@ -164,10 +162,14 @@ textarea {
 }
 
 .footer {
-  padding-top: 30px;
+  background-color: #f6f6f6;
 }
 
 .footer__contact-logo {
   padding-top: 60px;
 }
 
+.footer__credicts {
+  display: flex;
+  justify-content: center;
+}
