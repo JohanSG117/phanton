@@ -8,17 +8,24 @@
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
     <div class="homepage">
+      <input class="nav__menu__control__checkbox" type="checkbox" name="" id="cta_menu">
+      <label class="nav__menu__control" for="cta_menu">
+        X
+      </label>
       <nav class="nav__menu">
-        <h3 class="nav__menu_title">Menu</h3>
-        <div class="nav__menu_links">
-          <a class="nav__menu_anchor" href="">Home</a>
-          <a class="nav__menu_anchor" href="">Ipsum veroeros</a>
-          <a class="nav__menu_anchor" href="">Tempus etiam</a>
-          <a class="nav__menu_anchor" href="">Consequat dolor</a>
-          <a class="nav__menu_anchor" href="">Elements</a>
+        <div class="nav__menu__wrapper">
+          <h3 class="nav__menu_title">Menu</h3>
+          <div class="nav__menu_links">
+            <a class="nav__menu_anchor" href="index.html">Home</a>
+            <a class="nav__menu_anchor" href="">Ipsum veroeros</a>
+            <a class="nav__menu_anchor" href="">Tempus etiam</a>
+            <a class="nav__menu_anchor" href="">Consequat dolor</a>
+            <a class="nav__menu_anchor" href="elements.html">Elements</a>
+          </div>
         </div>
       </nav>
         <header class="c-container header">
@@ -225,10 +232,10 @@
       </section>
     </div>
     <footer class="footer">
-        <div class="c-container">
+        <div class="c-container footer__wrapper">
           <div class="footer__contact">
             <div class="footer__form">
-              <h2>GET IN TOUCH</h2>
+              <h2 class="footer__form__title">GET IN TOUCH</h2>
               <form class="footer__form-input">
                 <input type="text" name="name" placeholder="Name">
                 <input type="email" name="email" placeholder="Email">
@@ -237,9 +244,9 @@
               </form>
             </div>
             <div class="footer__contact-logo">
-              <div class="footer__contact-logo-title">
-                <h2>FOLLOW</h2>
-              </div>
+              <h2 class="footer__contact-logo-title">
+                FOLLOW
+              </h2>
               <div class="f__contact-logo-icons">
                 <div class="fa">
                   <i class="fa-ico"></i>
@@ -268,15 +275,15 @@
               </div>
             </div>
           </div>
-          <div class="footer__credicts">
+          <div class="footer__copyright">
             <div class="credicts">
               <span>© Untitled. All rights reserved</span>
             </div>
             <div class="credicts credict__medio">
-              <span>HTML5 UP</span>
+              Design: <a href="#">HTML5 UP</a>
             </div>
             <div class="credicts">
-             <span>Demo Images: Unsplash</span>
+             <span>Demo Images: <a href="#">Unsplash</a></span>
             </div>
           </div>
         </div >
