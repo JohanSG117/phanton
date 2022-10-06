@@ -56,8 +56,6 @@
   flex-direction: column;
 }
 
-.header {}
-
 .l-logo { 
   display: flex;
   padding-top: 0;
@@ -81,7 +79,7 @@
 
 .c-container {
   width: 100%;
-  max-width: 69em;
+  max-width: 68em;
   margin: auto;
   padding-left: 50px;
   padding-right: 50px;
