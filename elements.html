@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elements</title>
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/app.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="homepage">
-      <input class="nav__menu__control__checkbox" type="checkbox" name="" id="cta_menu">
-      <label class="nav__menu__control" for="cta_menu">
-        X
-      </label>
+        <!--  -->
+      <input
+        class="nav__menu__control__checkbox"
+        type="checkbox"
+        name=""
+        id="cta_menu"
+      />
+      <label class="nav__menu__control" for="cta_menu"> X </label>
       <nav class="nav__menu">
         <div class="nav__menu__wrapper">
           <h3 class="nav__menu_title">Menu</h3>
@@ -28,12 +32,81 @@
           </div>
         </div>
       </nav>
+      <!-- HEADER -->
       <header class="c-container header">
         <div class="l-logo">
-          <img class="l-logo__img" src="./images/logo.svg"/>
+          <img class="l-logo__img" src="./images/logo.svg" />
           <h3 class="l-logo__title">PHANTOM</h3>
         </div>
-    </header>
+      </header>
+      <!-- ELEMENTS -->
+      <section class="c-container">
+        <h1>Elements</h1>
+        <div>
+          <h3>TEXT</h3>
+          <p>
+            This is <b>bold</b> and this is <strong>strong.</strong> This is
+            <i>italic</i> and this is <em>emphasized.</em> This is <sup>superscript</sup> text and thi is <sub>superscript</sub> text. This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code> and finally <a href="#">this is a link.</a>
+          </p>
+          <hr>
+          <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+          <hr>
+          <h2>HEADING LEVEL 2</h2>
+          <h3>HEADING LEVEL 3</h3>
+          <h4>HEADING LEVEL 4</h4>
+          <hr>
+          <h3>BLOCKQUOTE</h3>
+          <blockquote>
+            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+        </div>
+        <div>
+            <h3>PREFORMATTED</h3>
+            <pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+  print 'Iteration ' + i;
+  deck.shuffle();
+  i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+        </div>
+      </section>
+      <section class="c-container">
+        <h3>LISTS</h3>
+        <div class="list-style">
+            <div>
+                <h3>UNORDERED</h3>
+                <ul>
+                  <li>Dolor pulvinar etiam.</li>
+                  <li>Sagittis adipiscing.</li>
+                  <li>Felis enim feugiat.</li>
+                </ul>
+                <h3>ALTERNATE</h3>
+                <ul class="list-style-ul">
+                    <li>Dolor pulvinar etiam.</li>
+                    <li>Sagittis adipiscing.</li>
+                    <li>Felis enim feugiat.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>ORDERED</h3>
+                <ol class="list-style-ol">
+                    <li>Dolor pulvinar etiam.</li>
+                    <li>Dolor pulvinar etiam.</li>
+                    <li>Dolor pulvinar etiam.</li>
+                    <li>Dolor pulvinar etiam.</li>
+                    <li>Dolor pulvinar etiam.</li>
+                    <li>Dolor pulvinar etiam.</li>
+                </ol>
+                <h3>ICONS</h3>
+                <div>
+                    <a href="#" class="icon brands style1 fa-twitter">...</a>
+                </div>
+                <div></div>
+            </div>
+        </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
