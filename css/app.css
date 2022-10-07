@@ -358,3 +358,33 @@ table.c-tablet__alternative tbody td {
 .c-form-box-full {
   flex: 1 1 100%;
 }
+
+/* INPUTS */
+.c-action-radio,
+.c-action-checkbox {
+  cursor: pointer;
+}
+
+.c-action-radio input,
+.c-action-checkbox input {
+  appearance: auto;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.c-action-checkbox span::before ,
+.c-action-radio span::before {
+  content: '😒';
+}
+
+.c-action-checkbox input:focus-visible + span ,
+.c-action-radio input:focus-visible + span {
+  outline: 1px solid;
+  outline-offset: 1px;
+}
+.c-action-checkbox input:checked + span::before,
+.c-action-radio input:checked + span::before {
+  content: '😎';
+}
