@@ -183,18 +183,49 @@
   border-radius: 4px;
 }
 
-.button_form {
-  background-color: #585858;
-  color: #FFF;
-  font-weight: 900;
-  font-size: 16px;
+button {
+  border: none;
+}
+
+.c-btn {
+  border-radius: 4px;
+  padding: 20px 27px;
+  font-size: 0.76rem;
   letter-spacing: 5px;
   font-family: var(--theme-font-family);
-  padding: 16px 26px;
-  border-radius: 4px;
-  border-bottom-style: none;
-  border: none;
-  max-width: max-content;
+  font-weight: 900;
+  background-color: #585858;
+  color: #FFF;
+  display: inline-flex;
+  line-height: 1;
+  align-content: center;
+}
+
+.c-btn_outline {
+  background-color: #FFF;
+  color: #585858;
+  box-shadow: 0 0 0 2px #585858 inset;
+}
+
+.c-btn_large {
+  width: 100%;
+  justify-content: center;
+}
+
+.c-btn_small {
+  padding: 16px 20px;
+  font-size: 12px;
+}
+
+.c-btn_fit {
+  width: 30%;
+  justify-content: center;
+}
+
+.c-btn_big {
+  padding: 26px 34px;
+  font-size: 21px;
+
 }
 
 .credicts { 
@@ -207,4 +238,84 @@
   border-style: solid;
   border-left: solid 1px rgb(188, 187, 187);
   border-right: solid 1px rgb(188, 187, 187);
+}
+
+/*  */
+
+
+.list-style_block,
+.list-style {
+  display: grid;
+  gap: 2rem;
+}
+
+.list-style {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.list-style_block {
+  display: flex;
+  column-gap: 1rem;
+  row-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.list-style_block:last-child {
+  /* margin-bottom: 0; */
+}
+
+.list-style-ul {
+    padding-left: 0;
+}
+
+.list-style-ul {
+  list-style: none;
+}
+.list-style-ul li {
+  box-shadow: 0 1px 0 0 var(--theme-color-gray);
+  padding: 0.5em 0;
+}
+.list-style-ul li:nth-child(1) {
+  padding-top: 0;
+}
+.list-style-ul li:last-child {
+  box-shadow: none;
+}
+
+.list-style-ol {
+  list-style: decimal;
+}
+
+/* ICONS */
+
+
+.icon_square,
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+  margin-right: 21px;
+  margin-top: 21px;
+}
+
+.icon_square {
+  box-shadow: 0 0 0 1px var(--theme-color-gray);
+  border-radius: 4px;
+  width: 2.65em;
+  height: 2.65em;
+  aspect-ratio: 1 / 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+table.c-tablet__alternative tbody {
+  box-shadow: 0 0 0 -1px var(--theme-color-gray);
+}
+table.c-tablet__alternative tbody tr td:last-child {
+  box-shadow: 1px 0 0 0 var(--theme-color-gray), -1px 0 0 0 var(--theme-color-gray);
+}
+table.c-tablet__alternative tbody td {
+  box-shadow: -1px 0 0 0 var(--theme-color-gray);
 }
