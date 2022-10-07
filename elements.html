@@ -198,7 +198,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
               <a href="#" class="c-btn c-btn_large c-btn_small">SMALL</a>
             </div>
             <div class="list-style_block">
-              <a href="#" class="c-btn c-btn_outline c-btn_large c-btn_smallC">SMALL</a>
+              <a href="#" class="c-btn c-btn_outline c-btn_large c-btn_small">SMALL</a>
             </div>
           </div>
         </div>
@@ -318,7 +318,56 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
             <button class="c-btn c-btn_outline c-btn_small c-btn_fit">FIT-SMALL</button>
             <button class="c-btn c-btn_outline c-btn_small c-btn_fit">FIT-SMALL</button>
           </div>
+          <div class="list-style_block">
+            <button class="c-btn">
+              <i class="fa-solid fa-download"></i>
+              ICON
+            </button>
+            <button class="c-btn c-btn_outline">
+              <i class="fa-solid fa-upload"></i>
+              ICON
+            </button>
+            <button class="c-btn c-btn_outline">
+              <i class="fa-solid fa-floppy-disk"></i>
+              ICON</button>
+          </div>
+          <div>
+            <button class="c-btn" disabled>DISABLED
+            </button>
+            <button class="c-btn c-btn_outline" disabled>DISABLED
+            </button></div>
         </div>
+      </section>
+      <section class="c-container">
+        <h3>FORM</h3>
+        <form class="c-form">
+          <div class="c-form-column">
+            <div class="c-form-box">
+              <input type="text" name="demo-name" value placeholder="name">
+            </div>
+            <div class="c-form-box">
+              <input type="email"  value placeholder="Email">
+            </div>
+            <div class="c-form-box-full">
+              <select name="demo-category">
+                <option value="">Category</option>
+                <option value="1">manufacturing</option>
+                <option value="1">Shopping</option>
+                <option value="1">Administration</option>
+                <option value="1">Human Resources</option>
+              </select>
+            </div>
+          </div>
+          <div class="c-form-column">
+            <label class="c-action-radio">
+              <input type="radio" name="demo-priority" checked style="appearance: auto; width: 1.3rem; aspect-ratio: 1 /1;">
+              <span>Radio</span>
+            </label>
+            <input type="checkbox" id="demo-priority-low" name="demo-priority" checked style="appearance: auto;
+            width: 1.3rem;
+            aspect-ratio: 1 /1;">
+          </div>
+        </form>
       </section>
     </div>
   </body>
