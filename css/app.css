@@ -349,17 +349,25 @@ table.c-tablet__alternative tbody td {
   flex: 1;
 }
 
-.c-form-column {
-  display: flex;
-  gap: 42px;
-  flex-wrap: wrap;
-}
-
 .c-form-box-full {
   flex: 1 1 100%;
 }
 
+.c-column {
+  display: grid;
+  gap: 42px;
+  flex-wrap: wrap;
+}
+
+.c-column.c-column-triad {
+  grid-template-columns: repeat(auto-fill, minmax(calc(68em / 4), 1fr));
+}
+.c-column.c-column-dupla {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* INPUTS */
+
 .c-action-radio,
 .c-action-checkbox {
   cursor: pointer;
@@ -387,4 +395,16 @@ table.c-tablet__alternative tbody td {
 .c-action-checkbox input:checked + span::before,
 .c-action-radio input:checked + span::before {
   content: '😎';
+}
+
+.c-card__galery-f {
+  max-height: 380px;
+  max-width: 100%;
+}
+
+.c-card__galery {
+  display: grid;
+  grid-template-columns: repeat(3,3fr);
+  gap: 29px;
+  margin-top: 25px;
 }
