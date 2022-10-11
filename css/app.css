@@ -10,6 +10,7 @@
 .nav__menu__control {
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 .nav__menu {
@@ -298,13 +299,17 @@
 
 /* ICONS */
 
+.icon-div {
+  display: flex;
+  padding-top: 21px;
+  gap: 21px;
+}
+
 .icon_square,
 .icon {
   text-decoration: none;
   border-bottom: none;
   position: relative;
-  margin-right: 21px;
-  margin-top: 21px;
 }
 
 .icon_square {
