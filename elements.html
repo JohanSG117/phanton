@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,73 +10,69 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/app.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="homepage">
-      <!--  -->
-      <input
-        class="nav__menu__control__checkbox"
-        type="checkbox"
-        name=""
-        id="cta_menu"
-      />
-      <label class="nav__menu__control" for="cta_menu"> X </label>
-      <nav class="nav__menu">
-        <div class="nav__menu__wrapper">
-          <h3 class="nav__menu_title">Menu</h3>
-          <div class="nav__menu_links">
-            <a class="nav__menu_anchor" href="index.html">Home</a>
-            <a class="nav__menu_anchor" href="">Ipsum veroeros</a>
-            <a class="nav__menu_anchor" href="">Tempus etiam</a>
-            <a class="nav__menu_anchor" href="">Consequat dolor</a>
-            <a class="nav__menu_anchor" href="elements.html">Elements</a>
-          </div>
-        </div>
-      </nav>
-      <!-- HEADER -->
-      <header class="c-container header">
-        <div class="l-logo">
-          <img class="l-logo__img" src="./images/logo.svg" />
-          <h3 class="l-logo__title">PHANTOM</h3>
-        </div>
-      </header>
-      <!-- ELEMENTS -->
-      <section class="c-container">
-        <h1>Elements</h1>
-        <div>
-          <h3>TEXT</h3>
-          <p>
-            This is <b>bold</b> and this is <strong>strong.</strong> This is
-            <i>italic</i> and this is <em>emphasized.</em> This is
-            <sup>superscript</sup> text and thi is <sub>superscript</sub> text.
-            This is <u>underlined</u> and this is code:
-            <code>for (;;) { ... }</code> and finally
-            <a href="#">this is a link.</a>
-          </p>
-          <hr />
-          <p>
-            Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio
-            porttitor sem non mi integer non faucibus ornare mi ut ante amet
-            placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
-            varius montes viverra nibh in adipiscing blandit tempus accumsan.
-          </p>
-          <hr />
-          <h2>HEADING LEVEL 2</h2>
-          <h3>HEADING LEVEL 3</h3>
-          <h4>HEADING LEVEL 4</h4>
-          <hr />
-          <h3>BLOCKQUOTE</h3>
-          <blockquote>
-            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-            sagittis eget tempus euismod. Vestibulum ante ipsum primis in
-            faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-            adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
-            faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
-          </blockquote>
-        </div>
-        <div>
-          <h3>PREFORMATTED</h3>
-          <pre><code>i = 0;
+        <!--  -->
+        <input class="nav__menu__control__checkbox" type="checkbox" name="" id="cta_menu" />
+        <label class="nav__menu__control" for="cta_menu"> X </label>
+        <nav class="nav__menu">
+            <div class="nav__menu__wrapper">
+                <h3 class="nav__menu_title">Menu</h3>
+                <div class="nav__menu_links">
+                    <a class="nav__menu_anchor" href="index.html">Home</a>
+                    <a class="nav__menu_anchor" href="">Ipsum veroeros</a>
+                    <a class="nav__menu_anchor" href="">Tempus etiam</a>
+                    <a class="nav__menu_anchor" href="">Consequat dolor</a>
+                    <a class="nav__menu_anchor" href="elements.html">Elements</a>
+                </div>
+            </div>
+        </nav>
+        <!-- HEADER -->
+        <header class="c-container header">
+            <div class="l-logo">
+                <img class="l-logo__img" src="./images/logo.svg" />
+                <h3 class="l-logo__title">PHANTOM</h3>
+            </div>
+        </header>
+        <!-- ELEMENTS -->
+        <section class="c-container">
+            <h1>Elements</h1>
+            <div>
+                <h3>TEXT</h3>
+                <p>
+                    This is <b>bold</b> and this is <strong>strong.</strong> This is
+                    <i>italic</i> and this is <em>emphasized.</em> This is
+                    <sup>superscript</sup> text and thi is <sub>superscript</sub> text.
+                    This is <u>underlined</u> and this is code:
+                    <code>for (;;) { ... }</code> and finally
+                    <a href="#">this is a link.</a>
+                </p>
+                <hr />
+                <p>
+                    Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio
+                    porttitor sem non mi integer non faucibus ornare mi ut ante amet
+                    placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
+                    varius montes viverra nibh in adipiscing blandit tempus accumsan.
+                </p>
+                <hr />
+                <h2>HEADING LEVEL 2</h2>
+                <h3>HEADING LEVEL 3</h3>
+                <h4>HEADING LEVEL 4</h4>
+                <hr />
+                <h3>BLOCKQUOTE</h3>
+                <blockquote>
+                    Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
+                    sagittis eget tempus euismod. Vestibulum ante ipsum primis in
+                    faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+                    adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
+                    faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
+                </blockquote>
+            </div>
+            <div>
+                <h3>PREFORMATTED</h3>
+                <pre><code>i = 0;
 
 while (!deck.isInOrder()) {
   print 'Iteration ' + i;
@@ -84,381 +81,401 @@ while (!deck.isInOrder()) {
 }
 
 print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-        </div>
-      </section>
-      <section class="c-container">
-        <h3>LISTS</h3>
-        <div class="list-style">
-          <div>
-            <h3>UNORDERED</h3>
-            <ul>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Sagittis adipiscing.</li>
-              <li>Felis enim feugiat.</li>
-            </ul>
-            <h3>ALTERNATE</h3>
-            <ul class="list-style-ul">
-              <li>Dolor pulvinar etiam.</li>
-              <li>Sagittis adipiscing.</li>
-              <li>Felis enim feugiat.</li>
-            </ul>
-          </div>
-          <div>
-            <h3>ORDERED</h3>
-            <ol class="list-style-ol">
-              <li>Dolor pulvinar etiam.</li>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Dolor pulvinar etiam.</li>
-            </ol>
-            <h3>ICONS</h3>
-            <div class="icon-div">
-              <a
-                href="#"
-                class="icon fa-brands fa-twitter"
-                aria-label="twitter icon"
-              ></a>
-              <a
-                href="#"
-                class="icon fa-brands fa-facebook-f"
-                aria-label="facebook icon"
-              ></a>
-              <a
-                href="#"
-                class="icon fa-brands fa-instagram"
-                aria-label="instagram icon"
-              ></a>
-              <a
-                href="#"
-                class="icon fa-brands fa-github"
-                aria-label="github icon"
-              ></a>
             </div>
-            <div class="icon-div">
-              <a
-                href="#"
-                class="icon_square fa-brands fa-twitter"
-                aria-label="twitter icon"
-              ></a>
-              <a
-                href="#"
-                class="icon_square fa-brands fa-facebook-f"
-                aria-label="facebook icon"
-              ></a>
-              <a
-                href="#"
-                class="icon_square fa-brands fa-instagram"
-                aria-label="instagram icon"
-              ></a>
-              <a
-                href="#"
-                class="icon_square fa-brands fa-github"
-                aria-label="github icon"
-              ></a>
+        </section>
+        <section class="c-container">
+            <h3>LISTS</h3>
+            <div class="list-style">
+                <div>
+                    <h3>UNORDERED</h3>
+                    <ul>
+                        <li>Dolor pulvinar etiam.</li>
+                        <li>Sagittis adipiscing.</li>
+                        <li>Felis enim feugiat.</li>
+                    </ul>
+                    <h3>ALTERNATE</h3>
+                    <ul class="list-style-ul">
+                        <li>Dolor pulvinar etiam.</li>
+                        <li>Sagittis adipiscing.</li>
+                        <li>Felis enim feugiat.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ORDERED</h3>
+                    <ol class="list-style-ol">
+                        <li>Dolor pulvinar etiam.</li>
+                        <li>Dolor pulvinar etiam.</li>
+                        <li>Dolor pulvinar etiam.</li>
+                        <li>Dolor pulvinar etiam.</li>
+                        <li>Dolor pulvinar etiam.</li>
+                        <li>Dolor pulvinar etiam.</li>
+                    </ol>
+                    <h3>ICONS</h3>
+                    <div class="icon-div">
+                        <a href="#" class="icon fa-brands fa-twitter" aria-label="twitter icon"></a>
+                        <a href="#" class="icon fa-brands fa-facebook-f" aria-label="facebook icon"></a>
+                        <a href="#" class="icon fa-brands fa-instagram" aria-label="instagram icon"></a>
+                        <a href="#" class="icon fa-brands fa-github" aria-label="github icon"></a>
+                    </div>
+                    <div class="icon-div">
+                        <a href="#" class="icon_square fa-brands fa-twitter" aria-label="twitter icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-facebook-f" aria-label="facebook icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-instagram" aria-label="instagram icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-github" aria-label="github icon"></a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="c-container">
-        <h3>ACTIONS</h3>
-        <div class="list-style">
-          <div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn">DEFAULT</a>
-              <a href="#" class="c-btn c-btn_outline">DEFAULT</a>
-            </div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn c-btn_small">SMALL</a>
-              <a href="#" class="c-btn c-btn_outline c-btn_small">SMALL</a>
-            </div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn">DEFAULT</a>
-            </div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn c-btn_outline">DEFAULT</a>
-            </div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn c-btn_small">SMALL</a>
-            </div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn c-btn_outline c-btn_small">SMALL</a>
-            </div>
-          </div>
-          <!--  -->
-          <div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn c-btn_large">DEFAULT</a>
-            </div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn c-btn_outline c-btn_large">DEFAULT</a>
-            </div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn c-btn_large c-btn_small">SMALL</a>
-            </div>
-            <div class="list-style_block">
-              <a href="#" class="c-btn c-btn_outline c-btn_large c-btn_small">SMALL</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="c-container">
-        <h2>TABLE</h2>
-        <h3>DEFAULT</h3>
-        <div>
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Item One</td>
-                <td>Ante turpis integer aliquet porttitor.</td>
-                <td>	29.99</td>
-              </tr>
-              <tr>
-                <td>Item Two</td>
-                <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                <td>	19.99</td>
-              </tr>
-              <tr>
-                <td>Item Three</td>
-                <td>Morbi faucibus arcu accumsan lorem.</td>
-                <td>	29.99</td>
-              </tr>
-              <tr>
-                <td>Item Four</td>
-                <td>Vitae integer tempus condimentum.</td>
-                <td>	19.99</td>
-              </tr>
-              <tr>
-                <td>Item Five</td>
-                <td>Ante turpis integer aliquet porttitor.</td>
-                <td>	29.99</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th colspan="2"></th>
-                <th>100.00</th>
-              </tr>
-            </tfoot>
-          </table>
-        </div>
-        <div>
-          <h3>ALTERNATIVE</h3>
-          <table class="c-tablet__alternative">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Item One</td>
-                <td>Ante turpis integer aliquet porttitor.</td>
-                <td>	29.99</td>
-              </tr>
-              <tr>
-                <td>Item Two</td>
-                <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                <td>	19.99</td>
-              </tr>
-              <tr>
-                <td>Item Three</td>
-                <td>Morbi faucibus arcu accumsan lorem.</td>
-                <td>	29.99</td>
-              </tr>
-              <tr>
-                <td>Item Four</td>
-                <td>Vitae integer tempus condimentum.</td>
-                <td>	19.99</td>
-              </tr>
-              <tr>
-                <td>Item Five</td>
-                <td>Ante turpis integer aliquet porttitor.</td>
-                <td>	29.99</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th colspan="2"></th>
-                <th>100.00</th>
-              </tr>
-            </tfoot>
-          </table>
-        </div>
-      </section>
-      <section class="c-container">
-        <div>
-          <h3>BUTTONS</h3>
-          <div class="list-style_block">
-            <button class="c-btn">PRAMARY</button>
-            <button class="c-btn c-btn_outline">DEFAULT</button>
-          </div>
-          <div class="list-style_block">
-            <button class="c-btn c-btn_outline c-btn_big">LARGE</button>
-            <button class="c-btn c-btn_outline">DEFAULT</button>
-            <button class="c-btn c-btn_outline c-btn_small">DEFAULT</button>
-          </div>
-          <div class="list-style_block">
-            <button class="c-btn c-btn_fit">FIT</button>
-            <button class="c-btn c-btn_outline c-btn_fit">FIT</button>
-            <button class="c-btn c-btn_outline c-btn_fit">FIT</button>
-          </div>
-          <div class="list-style_block">
-            <button class="c-btn c-btn_small c-btn_fit">FIT</button>
-            <button class="c-btn c-btn_outline c-btn_small c-btn_fit">FIT-SMALL</button>
-            <button class="c-btn c-btn_outline c-btn_small c-btn_fit">FIT-SMALL</button>
-          </div>
-          <div class="list-style_block">
-            <button class="c-btn">
-              <i class="fa-solid fa-download"></i>
-              ICON
-            </button>
-            <button class="c-btn c-btn_outline">
-              <i class="fa-solid fa-upload"></i>
-              ICON
-            </button>
-            <button class="c-btn c-btn_outline">
-              <i class="fa-solid fa-floppy-disk"></i>
-              ICON</button>
-          </div>
-          <div>
-            <button class="c-btn" disabled>DISABLED
-            </button>
-            <button class="c-btn c-btn_outline" disabled>DISABLED
-            </button></div>
-        </div>
-      </section>
-      <section class="c-container">
-        <h3>FORM</h3>
-        <form class="c-form">
-          <div class="c-form-column">
-            <div class="c-form-box">
-              <input type="text" name="demo-name" value placeholder="name">
-            </div>
-            <div class="c-form-box">
-              <input type="email"  value placeholder="Email">
-            </div>
-            <div class="c-form-box-full">
-              <select name="demo-category">
-                <option value="">Category</option>
-                <option value="1">manufacturing</option>
-                <option value="1">Shopping</option>
-                <option value="1">Administration</option>
-                <option value="1">Human Resources</option>
-              </select>
-            </div>
-          </div>
-          <div class="c-column c-column-triad">
-            <!--  -->
-            <div class="c-column_cell">
-              <label class="c-action-radio">
-                <input type="radio" name="demo-priority">
-                <span>Low</span>
-              </label>
-            </div>
-            <!--  -->
-            <div class="c-column_cell">
-              <label class="c-action-radio">
-                <input type="radio" name="demo-priority">
-                <span>Normal</span>
-              </label>
-            </div>
-            <!--  -->
-            <div class="c-column_cell">
-              <label class="c-action-radio">
-                <input type="radio" name="demo-priority">
-                <span>High</span>
-              </label>
-            </div>
+        </section>
 
-          </div>
-          <div class="c-column  c-column-dupla">
-            <div class="c-form-column_cell">
-              <label class="c-action-checkbox">
-                <input type="checkbox" name="demo-priority">
-                <span>Email me a copy</span>
-              </label>
+        <!-- BUTTONS -->
+
+        <section class="c-container">
+            <h3>ACTIONS</h3>
+            <div class="list-style">
+                <div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn">DEFAULT</a>
+                        <a href="#" class="c-btn c-btn_outline">DEFAULT</a>
+                    </div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn c-btn_small">SMALL</a>
+                        <a href="#" class="c-btn c-btn_outline c-btn_small">SMALL</a>
+                    </div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn">DEFAULT</a>
+                    </div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn c-btn_outline">DEFAULT</a>
+                    </div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn c-btn_small">SMALL</a>
+                    </div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn c-btn_outline c-btn_small">SMALL</a>
+                    </div>
+                </div>
+                <!--  -->
+                <div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn c-btn_large">DEFAULT</a>
+                    </div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn c-btn_outline c-btn_large">DEFAULT</a>
+                    </div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn c-btn_large c-btn_small">SMALL</a>
+                    </div>
+                    <div class="list-style_block">
+                        <a href="#" class="c-btn c-btn_outline c-btn_large c-btn_small">SMALL</a>
+                    </div>
+                </div>
             </div>
-            <div class="c-column_cell">
-              <label class="c-action-checkbox">
-                <input type="checkbox" id="demo-priority-low" name="demo-priority">
-                <span>Not a robot</span>
-              </label>
+        </section>
+        <section class="c-container">
+            <h2>TABLE</h2>
+            <h3>DEFAULT</h3>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Item One</td>
+                            <td>Ante turpis integer aliquet porttitor.</td>
+                            <td> 29.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Two</td>
+                            <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                            <td> 19.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Three</td>
+                            <td>Morbi faucibus arcu accumsan lorem.</td>
+                            <td> 29.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Four</td>
+                            <td>Vitae integer tempus condimentum.</td>
+                            <td> 19.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Five</td>
+                            <td>Ante turpis integer aliquet porttitor.</td>
+                            <td> 29.99</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2"></th>
+                            <th>100.00</th>
+                        </tr>
+                    </tfoot>
+                </table>
             </div>
-          </div>
-          <div class="c-form-box">
-            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" cols="30" rows="1"></textarea>
-          </div>
-          <div class="list-style_block">
-            <button class="c-btn">SEND MESSAGE</button>
-            <button class="c-btn c-btn_outline">RESET</button>
-          </div>
-        </form>
-      </section>
-      <section class="c-container">
-        <h3>FIT</h3>
-        <div class="c-card-galery">
-          <div class="c-card__panoramic">
-            <img
-                src="https://via.placeholder.com/1344x380/323232"
-              />
-          </div>
-          <div class="c-card__galery">
-            <img 
-            src="https://via.placeholder.com/420x387/323232"
-          />
-          <img 
-            src="https://via.placeholder.com/420x387/323232"
-          />
-          <img 
-            src="https://via.placeholder.com/420x387/323232"
-          />
-          <img 
-            src="https://via.placeholder.com/420x387/323232"
-          />
-          <img 
-            src="https://via.placeholder.com/420x387/323232"
-          />
-          <img 
-            src="https://via.placeholder.com/420x387/323232"
-          />
-          <img 
-            src="https://via.placeholder.com/420x387/323232"
-          />
-          <img 
-            src="https://via.placeholder.com/420x387/323232"
-          />
-          <img 
-            src="https://via.placeholder.com/420x387/323232"
-          />
-        </div>
-        </div>
-      </section>
-      <section class="c-container">
-        <h3>LEFT & RIGHT</h3>
-        <p>
-          <span >
-            <img src="https://via.placeholder.com/177x163/323232" style="float: left; margin: 0 1.5rem 0rem 0;"/>
-          </span>
-          Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
-        </p>
-        <br>
-        <p>
-          <img src="https://via.placeholder.com/177x163/323232" style="float: right; margin: 0 1.5rem 0rem 0;"/>
-          Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
-        </p>
-      </section>
-      <footer></footer>
+            <div>
+                <h3>ALTERNATIVE</h3>
+                <table class="c-tablet__alternative">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Item One</td>
+                            <td>Ante turpis integer aliquet porttitor.</td>
+                            <td> 29.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Two</td>
+                            <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                            <td> 19.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Three</td>
+                            <td>Morbi faucibus arcu accumsan lorem.</td>
+                            <td> 29.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Four</td>
+                            <td>Vitae integer tempus condimentum.</td>
+                            <td> 19.99</td>
+                        </tr>
+                        <tr>
+                            <td>Item Five</td>
+                            <td>Ante turpis integer aliquet porttitor.</td>
+                            <td> 29.99</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2"></th>
+                            <th>100.00</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <section class="c-container">
+            <div>
+                <h3>BUTTONS</h3>
+                <div class="list-style_block">
+                    <button class="c-btn">PRAMARY</button>
+                    <button class="c-btn c-btn_outline">DEFAULT</button>
+                </div>
+                <div class="list-style_block">
+                    <button class="c-btn c-btn_outline c-btn_big">LARGE</button>
+                    <button class="c-btn c-btn_outline">DEFAULT</button>
+                    <button class="c-btn c-btn_outline c-btn_small">DEFAULT</button>
+                </div>
+                <div class="list-style_block">
+                    <button class="c-btn c-btn_fit">FIT</button>
+                    <button class="c-btn c-btn_outline c-btn_fit">FIT</button>
+                    <button class="c-btn c-btn_outline c-btn_fit">FIT</button>
+                </div>
+                <div class="list-style_block">
+                    <button class="c-btn c-btn_small c-btn_fit">FIT</button>
+                    <button class="c-btn c-btn_outline c-btn_small c-btn_fit">FIT-SMALL</button>
+                    <button class="c-btn c-btn_outline c-btn_small c-btn_fit">FIT-SMALL</button>
+                </div>
+                <div class="list-style_block">
+                    <button class="c-btn">
+                        <i class="fa-solid fa-download"></i>
+                        ICON
+                    </button>
+                    <button class="c-btn c-btn_outline">
+                        <i class="fa-solid fa-upload"></i>
+                        ICON
+                    </button>
+                    <button class="c-btn c-btn_outline">
+                        <i class="fa-solid fa-floppy-disk"></i>
+                        ICON</button>
+                </div>
+                <div>
+                    <button class="c-btn" disabled>DISABLED
+                    </button>
+                    <button class="c-btn c-btn_outline" disabled>DISABLED
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="c-container">
+            <h3>FORM</h3>
+            <form class="c-form">
+                <div class="c-form-column">
+                    <div class="c-form-box">
+                        <input type="text" name="demo-name" value placeholder="name">
+                    </div>
+                    <div class="c-form-box">
+                        <input type="email" value placeholder="Email">
+                    </div>
+                    <div class="c-form-box-full">
+                        <select name="demo-category">
+                            <option value="">Category</option>
+                            <option value="1">manufacturing</option>
+                            <option value="1">Shopping</option>
+                            <option value="1">Administration</option>
+                            <option value="1">Human Resources</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="c-column c-column-triad">
+                    <!--  -->
+                    <div class="c-column_cell">
+                        <label class="c-action-radio">
+                            <input type="radio" name="demo-priority">
+                            <span>Low</span>
+                        </label>
+                    </div>
+                    <!--  -->
+                    <div class="c-column_cell">
+                        <label class="c-action-radio">
+                            <input type="radio" name="demo-priority">
+                            <span>Normal</span>
+                        </label>
+                    </div>
+                    <!--  -->
+                    <div class="c-column_cell">
+                        <label class="c-action-radio">
+                            <input type="radio" name="demo-priority">
+                            <span>High</span>
+                        </label>
+                    </div>
+
+                </div>
+                <div class="c-column  c-column-dupla">
+                    <div class="c-form-column_cell">
+                        <label class="c-action-checkbox">
+                            <input type="checkbox" name="demo-priority">
+                            <span>Email me a copy</span>
+                        </label>
+                    </div>
+                    <div class="c-column_cell">
+                        <label class="c-action-checkbox">
+                            <input type="checkbox" id="demo-priority-low" name="demo-priority">
+                            <span>Not a robot</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="c-form-box">
+                    <textarea name="demo-message" id="demo-message" placeholder="Enter your message" cols="30"
+                        rows="1"></textarea>
+                </div>
+                <div class="list-style_block">
+                    <button class="c-btn">SEND MESSAGE</button>
+                    <button class="c-btn c-btn_outline">RESET</button>
+                </div>
+            </form>
+        </section>
+        <section class="c-container">
+            <h3>FIT</h3>
+            <div class="c-card-galery">
+                <div class="c-card__panoramic">
+                    <img src="https://via.placeholder.com/1344x380/323232" />
+                </div>
+                <div class="c-card__galery">
+                    <img src="https://via.placeholder.com/420x387/323232" />
+                    <img src="https://via.placeholder.com/420x387/323232" />
+                    <img src="https://via.placeholder.com/420x387/323232" />
+                    <img src="https://via.placeholder.com/420x387/323232" />
+                    <img src="https://via.placeholder.com/420x387/323232" />
+                    <img src="https://via.placeholder.com/420x387/323232" />
+                    <img src="https://via.placeholder.com/420x387/323232" />
+                    <img src="https://via.placeholder.com/420x387/323232" />
+                    <img src="https://via.placeholder.com/420x387/323232" />
+                </div>
+            </div>
+        </section>
+        <section class="c-container">
+            <h3>LEFT & RIGHT</h3>
+            <p>
+                <span>
+                    <img src="https://via.placeholder.com/177x163/323232"
+                        style="float: left; margin: 0 1.5rem 0rem 0;" />
+                </span>
+                Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
+                Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+                adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus
+                euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis
+                volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum
+                nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+                vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac
+                pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
+                faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+                Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+                faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum
+                ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
+                accumsan eu faucibus. Integer ac pellentesque praesent.
+            </p>
+            <br>
+            <p>
+                <img src="https://via.placeholder.com/177x163/323232" style="float: right; margin: 0 1.5rem 0rem 0;" />
+                Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
+                Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+                adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus
+                euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis
+                volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum
+                nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+                vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac
+                pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in
+                faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+                Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+                faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum
+                ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
+                accumsan eu faucibus. Integer ac pellentesque praesent.
+            </p>
+        </section>
     </div>
-  </body>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="c-container footer__wrapper">
+            <div class="footer__contact">
+                <div class="footer__form">
+                    <h2 class="footer__form__title">GET IN TOUCH</h2>
+                    <form class="footer__form-input">
+                        <input type="text" name="name" placeholder="Name" />
+                        <input type="email" name="email" placeholder="Email" />
+                        <textarea name="message" placeholder="Message" rows="1"></textarea>
+                        <div>
+                            <button class="c-btn button_form">SEND</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer__contact-logo">
+                    <h2 class="footer__contact-logo-title">FOLLOW</h2>
+                    <div class="f__contact-logo-icons">
+                        <a href="#" class="icon_square fa-brands fa-twitter" aria-label="twitter icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-facebook-f" aria-label="facebook icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-instagram" aria-label="instagram icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-dribbble" aria-label="dribbble icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-github" aria-label="github icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-500px" aria-label="500px icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-phone" aria-label="phone icon"></a>
+                        <a href="#" class="icon_square fa-brands fa-envelopre" aria-label="envelope icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="credicts">
+                    <span>© Untitled. All rights reserved</span>
+                </div>
+                <div class="credicts credict__medio">
+                    Design: <a href="#">HTML5 UP</a>
+                </div>
+                <div class="credicts">
+                    <span>Demo Images: <a href="#">Unsplash</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
