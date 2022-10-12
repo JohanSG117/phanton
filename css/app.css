@@ -413,3 +413,8 @@ table.c-tablet__alternative tbody td {
   gap: 29px;
   margin-top: 25px;
 }
+
+.box-buttons,
+.c-card__galery {
+  margin-bottom: 40px;
+}
