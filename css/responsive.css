@@ -1,0 +1,27 @@
+
+@media all and (min-width: 370px) {
+    .homepage {
+        padding-top: 60px;
+        padding-bottom: 65px;
+    }
+    h3,
+    h2 {
+        font-size: 0.75em;
+    }
+
+    .c-container {
+        padding: 0 1.25rem;
+    }
+    .c-container_h1 {
+        font-size: 1.5em;
+        letter-spacing: -0.035em;
+    }
+    p {
+        font-size: 0.75em;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+}
+
+@media all and (min-width: 768px) {}
