@@ -108,8 +108,8 @@
       gap: 1.3rem;
     }
     .footer__contact {
-      grid-template-columns: 1.8fr 1fr;
-      column-gap: 5.3rem;
+      grid-template-columns: 2fr 1fr;
+      column-gap: 3rem;
     }
     .footer__form {
       order: 0;
