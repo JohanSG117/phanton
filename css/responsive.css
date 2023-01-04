@@ -109,7 +109,7 @@
     }
     .footer__contact {
       grid-template-columns: 1.8fr 1fr;
-      column-gap: 5.5rem;
+      column-gap: 5.3rem;
     }
     .footer__form {
       order: 0;
