@@ -92,8 +92,44 @@
 }
 
 @media all and (min-width: 1024px) {
+  .homepage {
+    padding-bottom: 96px;
+  }
     :root {
-        --theme-font-size: 18.6667px;
+        --theme-font-size: 16px;
+    }
+    .c-container_h1 {
+      margin-bottom: 32px;
+    }
+    h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+      display: block;
+    }
+    .c-card__list {
+      gap: 1.3rem;
+    }
+    .footer__contact {
+      grid-template-columns: 1.8fr 1fr;
+      column-gap: 5.5rem;
+    }
+    .footer__form {
+      order: 0;
+    }
+    .footer {
+      padding-top: 80px;
+      padding-bottom: 48px;
+    }
+    .footer__form__title {
+      padding-top: 0  ;
+    }
+    .footer__copyright {
+      margin: 60px 0px 25.6px;
+    }
+    .footer__form-input {
+      gap: 40px;
+    }
+    .footer__contact-logo-title,
+    .footer__form__title {
+      font-size: 1.1rem;
     }
 }
 
